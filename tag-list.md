@@ -3,7 +3,7 @@ Non-semantic: 11
 Media/ Embedding: 14
 Functional: 29
 
-total: 113 tags
+total: 113 tags only
 
 - Semantic tags:
 
