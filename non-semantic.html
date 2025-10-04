@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Non-Semantic Tags</title>
+  <title>Non-Semantic Tags Example</title>
 </head>
+
 <body>
+
   <nav>
     <a href="semantic.html">Semantic</a> |
     <a href="non-semantic.html">Non-Semantic</a> |
@@ -15,18 +18,46 @@
 
   <h1>Non-Semantic Tags</h1>
 
-  1.div & span tag example
-  <div style="border:1px solid #ccc; padding:10px;">
-    <span style="color:blue;">Span inside div</span>
-    2.small tag example
-    <small>This is a &lt;small&gt; tag, rarely highlighted.</small>
-  </div>
+  <main>
 
-  3.bdi tag example
-  <bdi>Text direction isolation example (bdi)</bdi>
-  <br/>
+    1. &lt;b&gt; tag example  
+    <p>This is <b>bold text</b> using the &lt;b&gt; tag.</p><br>
 
-  4.bdo tag example
-  <bdo dir="rtl">Right-to-left override (bdo)</bdo>
+    2. &lt;bdi&gt; tag example  
+    <p>Usernames: <bdi>محمد</bdi>, <bdi>John</bdi>, <bdi>अजय</bdi></p>
+    <p>The &lt;bdi&gt; tag isolates text direction (useful for mixed languages).</p><br>
+
+    3. &lt;bdo&gt; tag example  
+    <p><bdo dir="rtl">This text is reversed (right-to-left).</bdo></p><br>
+
+    4. &lt;div&gt; tag example  
+    <div>
+      <h3>Div Container</h3>
+      <p>This is a block of content grouped inside a &lt;div&gt; tag.</p>
+    </div><br>
+
+    5. &lt;head&gt; tag example  
+    <p>The &lt;head&gt; tag contains metadata, title, and scripts (not visible on the page).</p><br>
+
+    6. &lt;html&gt; tag example  
+    <p>The &lt;html&gt; tag wraps all the content of a webpage.</p><br>
+
+    7. &lt;i&gt; tag example  
+    <p>This word is <i>italicized</i> using the &lt;i&gt; tag.</p><br>
+
+    8. &lt;span&gt; tag example  
+    <p>This is <span>inline text</span> inside a paragraph using the &lt;span&gt; tag.</p><br>
+
+    9. &lt;style&gt; tag example  
+    <p>The &lt;style&gt; tag is used inside &lt;head&gt; to define CSS styles.</p><br>
+
+    10. &lt;title&gt; tag example  
+    <p>The &lt;title&gt; tag sets the page title seen on the browser tab.</p><br>
+
+    11. &lt;wbr&gt; tag example  
+    <p>Example of longwordwithout<wbr>break<wbr>using &lt;wbr&gt; tag.</p><br>
+
+  </main>
+
 </body>
 </html>

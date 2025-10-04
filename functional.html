@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Functional Tags</title>
+  <title>Functional Tags Example</title>
 </head>
+
 <body>
+
   <nav>
     <a href="semantic.html">Semantic</a> |
     <a href="non-semantic.html">Non-Semantic</a> |
@@ -13,31 +16,115 @@
     <a href="media.html">Media</a>
   </nav>
 
-  <h1>Functional Tags</h1>
+  <h1>Functional Tags Example</h1>
 
-  <form>
-    1.label & input text example
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" placeholder="Enter name"><br><br>
+  <main>
 
-    2.fieldset & legend example
-    <fieldset>
-      <legend>Choose your favorite:</legend>
-      <input type="radio" name="fav" value="html"> HTML
-      <input type="radio" name="fav" value="css"> CSS
-      <input type="radio" name="fav" value="js"> JS
-    </fieldset>
+    1. &lt;form&gt; tag example
+    <form>
+      2. &lt;input&gt; tag example: <input type="text" placeholder="Name"><br><br>
+      3. &lt;button&gt; tag example: <button type="submit">Submit</button><br><br>
+      4. &lt;select&gt;, &lt;option&gt;, &lt;optgroup&gt; tag example:
+      <select>
+        <optgroup label="Fruits">
+          <option>Apple</option>
+          <option>Banana</option>
+        </optgroup>
+        <optgroup label="Vegetables">
+          <option>Carrot</option>
+          <option>Spinach</option>
+        </optgroup>
+      </select><br><br>
+      5. &lt;textarea&gt; tag example: <br>
+      <textarea rows="3" cols="30">Write something...</textarea><br><br>
+      6. &lt;label&gt; tag example:
+      <label for="name">Name:</label>
+      <input type="text" id="name"><br><br>
+      7. &lt;fieldset&gt; and &lt;legend&gt; tag example:
+      <fieldset>
+        <legend>Personal Info</legend>
+        Age: <input type="number"><br>
+        Email: <input type="email">
+      </fieldset><br><br>
+      8. &lt;datalist&gt; tag example:
+      <input list="browsers" name="browser">
+      <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Safari">
+      </datalist><br><br>
+      9. &lt;output&gt; tag example: <output name="result">0</output><br><br>
+      10. &lt;progress&gt; tag example: <progress value="70" max="100"></progress><br><br>
+      11. &lt;meter&gt; tag example: <meter value="0.6">60%</meter>
+    </form><br><br>
 
-    3.button tag example
-    <button type="submit">Submit</button>
-  </form>
+    <p>12. &lt;script&gt; tag example:</p>
+    <p>
+      The &lt;script&gt; tag is used to add JavaScript to your HTML page.
+    </p>
+    <br>
 
-  4.meter tag example
-  <meter value="0.6" min="0" max="1">60%</meter>
-  <br/>
+    <p>13. &lt;noscript&gt; tag example:</p>
+    <p>
+      The &lt;noscript&gt; tag provides content for browsers that do not support JavaScript or have it disabled.
+    </p>
+    <br>
 
-  5.progress tag example
-  <progress value="70" max="100">70%</progress>
+
+    <p>14. &lt;canvas&gt; tag example:</p>
+    <p>
+      This tag is used to draw graphics, shapes, animations, or games directly in the browser using JavaScript.
+    </p>
+    <br>
+
+    <p>15. &lt;template&gt; tag example:</p>
+    <p>
+      The &lt;template&gt; tag holds HTML that will not be displayed automatically.
+      You can use JavaScript to copy its content and insert it into the page when needed.
+    </p>
+    <br>
+
+    16. &lt;slot&gt; tag example:
+    <p>The &lt;slot&gt; tag is used inside web components.</p><br><br>
+
+    17. &lt;a&gt; tag example: <a href="https://www.google.com">Go to Google</a><br><br>
+
+    <p>18. &lt;area&gt; and &lt;map&gt; tag example:</p>
+    <p>
+      The &lt;map&gt; tag defines an image map with clickable areas, and each &lt;area&gt; defines a specific clickable
+      region.
+      Attributes of &lt;area&gt; include: <code>shape</code>, <code>coords</code>, <code>href</code>.
+      Example: Clicking different parts of an image can lead to different links.
+    </p>
+    <br>
+
+
+    19. &lt;details&gt; and &lt;summary&gt; tag example:
+    <details>
+      <summary>Click to see details</summary>
+      <p>Details content is visible after expanding.</p>
+    </details><br><br>
+
+    20. &lt;dialog&gt; tag example:
+    <dialog open>
+      <p>This is a dialog box.</p>
+    </dialog><br><br>
+
+    21. &lt;menu&gt; tag example:
+    <menu>
+      <li>Menu Item 1</li>
+      <li>Menu Item 2</li>
+    </menu><br><br>
+
+    22. &lt;meta&gt; tag example:
+    <p>The &lt;meta&gt; tag defines page metadata (charset, description, viewport, etc.).</p><br>
+
+    23. &lt;link&gt; tag example:
+    <p>The &lt;link&gt; tag links external resources like CSS files.</p><br>
+
+    24. &lt;base&gt; tag example:
+    <p>The &lt;base&gt; tag sets the base URL for relative links.</p><br>
+  </main>
 </body>
-</html>
 
+</html>
